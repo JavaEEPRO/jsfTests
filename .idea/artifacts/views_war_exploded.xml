@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="views:war exploded">
+    <output-path>$PROJECT_DIR$/views/target/shop</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="views" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.1" />
+          <element id="archive" name="logics-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="logics" />
+          </element>
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.4.1.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/views/target/shop/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="views/web/Web" />
+    </root>
+  </artifact>
+</component>
